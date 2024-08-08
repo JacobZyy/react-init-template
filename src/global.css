@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --header-height: 4rem;
+  --footer-nav-menu-height: 5rem;
+  line-height: 1.25;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    'wdth' 100,
+    'YTLC' 500;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  @apply size-full not-italic text-base antialiased;
+}
+
+#root {
+  @apply size-full;
+}
+
+body {
+  @apply m-0 flex content-center items-center size-full overflow-x-hidden;
+}
